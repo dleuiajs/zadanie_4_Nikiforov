@@ -46,8 +46,8 @@
     <?php
     require_once("php/qnafunctions.php");
     use otazkyodpovede\QnA;
-    // createData();
-    // insertQnA();
+    // QnA::createData();
+    // QnA::insertQnA();
     QnA::generateQnA();
     ?>
     </section>
