@@ -44,7 +44,7 @@ class QnA
             $odpovede = $data["odpovede"];
 
             // pripojujeme sa k databáze    
-            $conn = connect();
+            $conn = Db::connect();
 
             // spustenie transakcie
             $conn->beginTransaction();
