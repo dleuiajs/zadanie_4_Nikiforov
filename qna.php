@@ -45,9 +45,10 @@
     </section>
     <?php
     require_once("php/qnafunctions.php");
+    use otazkyodpovede\QnA;
     // createData();
     // insertQnA();
-    generateQnA();
+    QnA::generateQnA();
     ?>
     </section>
     </div>
